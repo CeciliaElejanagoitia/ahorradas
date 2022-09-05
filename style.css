@@ -1,0 +1,45 @@
+/* body{
+    color: #4a4a4a
+} */
+.mi-nav{
+    height: 13vh;
+    padding: 1rem 2rem
+}
+.title{
+    font-size: 2.5rem;
+    color: white;
+}
+.anclas {
+    border-radius: 4px;
+}
+
+.oculto{
+    display: none;
+}
+.box{
+    padding: 1.25rem
+}
+main{
+    padding: 3rem 1.5rem;
+}
+.container{
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+.image{
+    max-width: 350px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.has-text-success::before{
+    content: '+';
+}
+.has-text-danger::before{
+    content: '-';
+}
+@media (min-width: 1024px){
+.container {
+    max-width: 960px;
+}}
